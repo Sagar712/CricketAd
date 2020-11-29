@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/CricketAd/static/css/main.35619c7c.chunk.css",
+    "main.js": "/CricketAd/static/js/main.481d26a6.chunk.js",
+    "main.js.map": "/CricketAd/static/js/main.481d26a6.chunk.js.map",
+    "runtime-main.js": "/CricketAd/static/js/runtime-main.0c0b0fd9.js",
+    "runtime-main.js.map": "/CricketAd/static/js/runtime-main.0c0b0fd9.js.map",
+    "static/js/2.eb4052bd.chunk.js": "/CricketAd/static/js/2.eb4052bd.chunk.js",
+    "static/js/2.eb4052bd.chunk.js.map": "/CricketAd/static/js/2.eb4052bd.chunk.js.map",
+    "index.html": "/CricketAd/index.html",
+    "static/css/main.35619c7c.chunk.css.map": "/CricketAd/static/css/main.35619c7c.chunk.css.map",
+    "static/js/2.eb4052bd.chunk.js.LICENSE.txt": "/CricketAd/static/js/2.eb4052bd.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/CricketAd/static/media/img-6.047226b0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c0b0fd9.js",
+    "static/js/2.eb4052bd.chunk.js",
+    "static/css/main.35619c7c.chunk.css",
+    "static/js/main.481d26a6.chunk.js"
+  ]
+}
