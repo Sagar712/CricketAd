@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+header{
+	height: 3rem;
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 999;
+	background-color: rgb(156, 63, 0);
+}
+
+.aa{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 2%;
+}
+
+.menus{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	color: white;
+	width: 20%;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.ab, .ac{
+	height: 3rem;
+	width: 8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.ab:hover, .ac:hover{
+	background-color: rgb(119, 24, 0);
+	border-bottom: 3px solid white;
+}
+
+.aca{
+	display: none;
+}
+
+.ac:hover .aca{
+	display: flex;
+	height: 7rem;
+	width: 8rem;
+	color: white;
+	position: absolute;
+	top: 3.1rem;
+	background-color: rgb(119, 24, 0);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.maincontent{
+	display: flex;
+	height: 90vh;
+	width: 100vw;
+	align-items: center;
+	
+}
+
+.leftcol, .rightcol{
+	width: 50%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.textss{
+	font-size: 1rem;
+            color: white;
+            width: 36vw;
+            text-align: justify;
+            margin-top: 2rem;
+}
+.mainhead{
+	font-size: 2rem;
+	text-shadow: 0 0 10px rgb(77, 43, 0);
+}
+#replace{
+	width: 28rem;
+}
+.baricon{
+	display: none;
+}
+
+@media screen and (max-width:960px){
+	.menus{
+		display: none;
+	}
+	.maincontent{
+		display: flex;
+		flex-direction: column;
+	}
+	.leftcol, .rightcol{
+		width: 100vw;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	.textss{
+		width: 95vw;
+	}
+	.heings{
+		font-size: 1.44rem;
+		margin-top: 3rem;
+		height: 2rem;
+	}
+	.mainhead{
+		font-size: 1.5rem;
+	}
+	#replace{
+		width: 100vw;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+	}
+	.baricon{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 3rem;
+		height: 100%;
+		color: rgb(255, 195, 139);
+		font-size: 1.2rem;
+	}
+	.baricon:active{
+		background-color: rgb(117, 57, 0);
+	}
+}
